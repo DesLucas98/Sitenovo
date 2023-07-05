@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+.main-log{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(36, 59, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-log{
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-log > h1{
+    font-size: 3vw;
+    color: rgb(0, 247, 255);
+}
+
+.right-log {
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.tab-log{
+    width: 40%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 10px 15px 10px #00000056;
+}
+
+.tab-log > h1{
+    color:rgb(79, 50, 105);
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(55, 64, 112);
+    color: white;
+    font-size: 10pt;
+    box-shadow: 0px 3px 5px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: rgb(63, 47, 47);
+}
+
+.textfield > input::placeholder{
+    color: rgb(232, 235, 235);
+}
+
+.btn-login{
+    width:50%;
+    padding: 12px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rgb(50, 74, 105);
+    background-color: rgb(57, 212, 212);
+    cursor: pointer;
+    box-shadow: 8px;
+    font-weight: 800;
+    display: block;
+
+}
+
+.btn-voltar{
+    width:50% ;
+    padding: 12px 0px;
+    margin: 15px;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color:rgb(30, 19, 179);
+    background-color: rgb(34, 209, 209);
+    cursor: pointer;
+    box-shadow: 8px;
+    font-weight: 800;
+    display: block;
+}
+
+img{
+    width: 40vw;
+    height: 60vh;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
